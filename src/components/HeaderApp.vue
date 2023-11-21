@@ -1,10 +1,10 @@
 <template>
-    <div class="d-flex">
-        <div>
-            <img src='/images/dark-logo.png' alt="">
+    <div class="d-flex justify-content-evenly box ">
+        <div class="pt-3 padding-start">
+            <img class="pt-2" src='/images/dark-logo.png' alt="">
         </div>
         <div>
-            <ul class="d-flex">
+            <ul class="d-flex pt-3 padding-end">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
@@ -78,5 +78,18 @@ export default {
 <style lang="css" scoped>
 li {
     list-style: none;
+    padding: 10px;
+}
+
+img {
+    width: 150px;
+}
+
+.box {
+    height: 80px;
+    background-color: white;
+    padding-left: 260px;
+    padding-right: 250px;
+
 }
 </style>
