@@ -10,7 +10,7 @@
                 guide
             </button>
             <p>
-                Have questions? Get Free Sample
+                Have questions? Get Free Sample <i class="fa-solid fa-arrow-right"></i>
             </p>
         </div>
         <div class="padding-end ">
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'FirstSectionMain'
 }
