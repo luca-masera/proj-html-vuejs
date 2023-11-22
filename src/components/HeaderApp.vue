@@ -65,6 +65,13 @@
                         <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
                     </section>
                 </li>
+                <li>
+                    <i class="fa-regular fa-circle-user"></i>
+                </li>
+                <li>
+                    <input type="search" class="form-control" id="search" placeholder="Search...">
+                    <label for="search"></label>
+                </li>
 
             </ul>
         </div>
@@ -101,7 +108,6 @@ img {
     background-color: white;
     padding-left: 260px;
     padding-right: 250px;
-
 }
 
 .d-block {
@@ -118,7 +124,6 @@ img {
     background-color: white;
     min-width: 150px;
     z-index: 1;
-
 }
 
 

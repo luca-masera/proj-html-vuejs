@@ -42,9 +42,13 @@ export default {
     height: 200px;
 }
 
+.box:hover {
+    background-color: white;
+}
+
 img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 

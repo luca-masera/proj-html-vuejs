@@ -16,16 +16,18 @@
             </button>
         </div>
     </div>
+    <SmartTutoring />
 </template>
 
 <script>
 import { store } from '../data/store.js';
 import FirstsectionMain from './FirstsectionMain.vue';
 import CardOnlineCourses from './CardOnlineCourses.vue';
+import SmartTutoring from './SmartTutoring.vue';
 
 export default {
     name: "MainApp",
-    components: { FirstsectionMain, CardOnlineCourses },
+    components: { FirstsectionMain, CardOnlineCourses, SmartTutoring },
     data() {
         return {
             store
@@ -42,12 +44,10 @@ export default {
 
 .box {
     background-color: #F5F1ED;
-
 }
 
 .text {
     text-align: center;
-
 }
 
 .padding {
