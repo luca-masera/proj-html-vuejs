@@ -18,6 +18,7 @@
     </div>
     <SmartTutoring />
     <MainNumber />
+    <CardArtistMain />
 </template>
 
 <script>
@@ -26,10 +27,12 @@ import FirstsectionMain from './FirstsectionMain.vue';
 import CardOnlineCourses from './CardOnlineCourses.vue';
 import SmartTutoring from './SmartTutoring.vue';
 import MainNumber from './MainNumber.vue';
+import CardArtistMain from './CardArtistMain.vue';
+
 
 export default {
     name: "MainApp",
-    components: { FirstsectionMain, CardOnlineCourses, SmartTutoring, MainNumber },
+    components: { FirstsectionMain, CardOnlineCourses, SmartTutoring, MainNumber, CardArtistMain },
     data() {
         return {
             store
