@@ -15,44 +15,55 @@
                         <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
                     </section>
                 </li>
-
-
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Pages
                     </a>
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[1].sections">
+
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Courses
                     </a>
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[2].sections">
+
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Features
                     </a>
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[3].sections">
+
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Blog
                     </a>
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[4].sections">
+
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Shop
                     </a>
-                </li>
-                <li>
-                    <i class="fa-regular fa-circle-user"></i>
-                </li>
-                <li>
-                    <input type="search" class="form-control" id="search" placeholder="Search...">
-                    <label for="search"></label>
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[5].sections">
+
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
 
             </ul>
@@ -105,7 +116,7 @@ img {
 .dropdown2 {
     display: none;
     background-color: white;
-    min-width: 250px;
+    min-width: 150px;
     z-index: 1;
 
 }
