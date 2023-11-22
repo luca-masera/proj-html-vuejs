@@ -3,11 +3,196 @@ export const store = reactive({
 
 
     list: [
-        'blu',
-        'rosso',
-        'viola',
-        'giallo'
+        {
+            name: 'Home',
+            sections: [
+                {
+                    title: 'MaxCoach Education'
+                },
+                {
+                    title: 'Course Portal'
+                },
+                {
+                    title: 'Distant Learning'
+                },
+                {
+                    title: 'Multimedia Pedagogy'
+                },
+                {
+                    title: 'Modern Schooling'
+                },
+                {
+                    title: 'Remote Trainng'
+                },
+                {
+                    title: 'Health Coaching'
+                },
+                {
+                    title: 'Gym Coaching'
+                },
+                {
+                    title: 'Business'
+                },
+                {
+                    title: 'Artist'
+                },
+                {
+                    title: 'Kitchen Coach'
+                },
+                {
+                    title: 'Motivation'
+                },
+                {
+                    title: 'Dancing'
+                },
+                {
+                    title: 'Guitar'
+                },
+                {
+                    title: 'Yoga'
+                },
+                {
+                    title: 'Photography'
+                },
+                {
+                    title: 'Personal Finance'
+                },
+                {
+                    title: 'Sales Coaching'
+                },
+                {
+                    title: 'Mental Therapy'
+                },
+                {
+                    title: '/images/menu.jpg'
+                }
+
+
+            ],
+        },
+
+        {
+            name: 'Pages',
+            sections: [
+                {
+                    title: 'Start Here'
+                },
+                {
+                    title: 'Success Story'
+                },
+                {
+                    title: 'About me'
+                },
+                {
+                    title: 'About us 01'
+                },
+                {
+                    title: 'About us 02'
+                },
+                {
+                    title: 'About us 03'
+                },
+                {
+                    title: 'Contact me'
+                },
+                {
+                    title: 'Contact us'
+                },
+                {
+                    title: 'Purchase Guide'
+                },
+                {
+                    title: 'Privacy Policy'
+                },
+                {
+                    title: 'Terms of Service'
+                },
+            ]
+        },
+        {
+            name: 'Courses',
+            sections: [
+                {
+                    title: 'Courses Grid 01'
+                },
+                {
+                    title: 'Courses Grid 02'
+                },
+                {
+                    title: 'Courses Grid 03'
+                },
+                {
+                    title: 'Membership Levels'
+                },
+                {
+                    title: 'Become a Teacher'
+                },
+                {
+                    title: 'Profile'
+                },
+                {
+                    title: 'Checkout'
+                },
+                {
+                    title: 'Single Layout'
+                },
+                {
+                    title: 'Purchase Guide'
+                }
+            ]
+        },
+        {
+            name: 'Features',
+            sections: [
+                {
+                    title: 'Events'
+                },
+                {
+                    title: 'Zoom Meetings'
+                }
+            ]
+        },
+        {
+            name: 'Blog',
+            sections: [
+                {
+                    title: 'Blog Grid'
+                },
+                {
+                    title: 'Blog Masonry'
+                },
+                {
+                    title: 'Blog Classic'
+                },
+                {
+                    title: 'Blog List'
+                }
+            ]
+        },
+        {
+            name: 'Shop',
+            sections: [
+                {
+                    title: 'Shop left Sidebar'
+                },
+                {
+                    title: 'Shop Right Sidebar'
+                },
+                {
+                    title: 'Card'
+                },
+                {
+                    title: 'Wishlist'
+                },
+                {
+                    title: 'Single Product'
+                }
+            ]
+        }
+
     ],
+
+
     cards: [
         {
             "price": "$40.00",
