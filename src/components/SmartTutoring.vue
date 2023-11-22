@@ -27,7 +27,7 @@
                 <span class="color">Start now <i class="fa-solid fa-arrow-right"></i></span>
             </div>
         </div>
-        <div class="d-flex">
+        <div class="d-flex pb-5 ">
             <div class="position-relative">
 
                 <img class="w-10 " src='/images/ricci2.jpg' alt="">

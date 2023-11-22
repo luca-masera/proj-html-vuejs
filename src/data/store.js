@@ -237,6 +237,77 @@ export const store = reactive({
             "lessons": "14 Lessons",
             "students": "76 Students"
         }
+    ],
+
+    lista: [
+
+        {
+            name: 'Address',
+            sections: [
+
+                {
+                    "text": "382 NE 191st St # 87394 Miami, FL 33179-3899",
+
+                },
+                {
+
+                    "text": "+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)",
+                },
+                {
+                    "text": "support@maxcoach.com",
+                },
+            ]
+        },
+        {
+            name: 'Explore',
+            sections: [
+
+                {
+                    name: 'Start here'
+                },
+                {
+                    name: 'Blog'
+                },
+                {
+                    name: 'About us'
+                }
+            ]
+        },
+        {
+            name: '',
+            sections: [
+                {
+                    name: 'Sucess story'
+                },
+                {
+                    name: 'Courses'
+                },
+                {
+                    name: 'Contact us'
+                },
+            ]
+        },
+        {
+            name: 'Information',
+            sections: [
+
+                {
+                    name: 'Membership'
+                },
+                {
+                    name: 'Purchase guide'
+                },
+                {
+                    name: 'Privacy policy'
+                },
+                {
+                    name: 'Terms of services'
+                }
+            ]
+        }
+
+
+
     ]
 
 })
