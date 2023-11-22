@@ -5,17 +5,18 @@
         </div>
         <div>
             <ul class="d-flex pt-3 padding-end">
-                <li class="nav-item dropdown">
+                <li class="dropdown1">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
                         Home
                     </a>
-                    <ul class="dropdown-menu" v-for="(action, index) in store.list">
+                    <section class="dropdown2 pt-2 " v-for="(action, index) in store.list[0].sections">
 
-                        <li><a class="dropdown-item" href="#"> </a>{{ action }}</li>
-
-                    </ul>
+                        <a class="dropdown-item d-block  " href="#"> {{ action.title }}</a>
+                    </section>
                 </li>
+
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">
@@ -56,7 +57,6 @@
 
             </ul>
         </div>
-
     </div>
 </template>
 
@@ -91,5 +91,33 @@ img {
     padding-left: 260px;
     padding-right: 250px;
 
+}
+
+.d-block {
+    display: block;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown2 {
+    display: none;
+    background-color: white;
+    min-width: 250px;
+    z-index: 1;
+
+}
+
+
+.dropdown2 a:hover {
+    color: #20AD96;
+}
+
+.dropdown1:hover .dropdown2 {
+    display: block;
+
+    color: black;
 }
 </style>
