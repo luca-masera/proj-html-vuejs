@@ -71,7 +71,6 @@
                 <li>
                     <input type="search" class="form-control " id="search" placeholder="Search...">
                     <label for="search"></label>
-
                 </li>
 
             </ul>
@@ -106,9 +105,11 @@ img {
 
 .box {
     height: 80px;
-    background-color: #f8f8f8;
+    background-color: white;
     padding-left: 260px;
     padding-right: 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+
 }
 
 .d-block {
