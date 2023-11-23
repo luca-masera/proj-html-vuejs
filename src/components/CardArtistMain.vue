@@ -1,8 +1,8 @@
 <template>
     <div class="box d-flex ">
         <div class="d-flex flex-column margin ">
-            <span class="pt-5 pb-2 ">Enjoyable Insights</span>
-            <h4 class="pb-3 color">Most Viewed Best Blogs</h4>
+            <span class="pt-5 pb-2 color-text ">Enjoyable Insights</span>
+            <h4 class="pb-3 color"><b>Most Viewed </b><span>Best Blogs</span></h4>
             <span class="pb-3 color"><i class="fa-solid fa-arrow-right pe-2"></i> Become a Better Blogger: Content
                 Planning</span>
             <span class="pb-3 color"><i class="fa-solid fa-arrow-right pe-2"></i>Promoting Your Online Business on
@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="box-white my-5">
-        <h4 class="pb-3">Subscribe Newsletters</h4>
+        <h4 class="pb-3 color"><b>Subscribe</b> <span>Newsletters</span></h4>
         <p class="pb-3">Enter your email address to register to our newsletter subscription delivered on a regular basis!
         </p>
         <div class="d-flex">
@@ -84,5 +84,17 @@ img {
 
 .color {
     color: #3F3A64;
+}
+
+h4 span {
+    color: #20AD96;
+}
+
+.color-text {
+    color: #8C89A2;
+}
+
+button:hover {
+    background-color: #3F3A64
 }
 </style>

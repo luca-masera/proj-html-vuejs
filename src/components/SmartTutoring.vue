@@ -1,30 +1,33 @@
 <template>
     <div class="box-wrapper">
         <div class="text padding">
-            <span>Maxcoach available courses</span>
-            <h4>Access Smart Tutoring Program For Benefits.</h4>
+            <span class="color-text">Maxcoach available courses</span>
+            <h4 class="color"><b>Access <span>Smart Tutoring</span> Program For Benefits. </b></h4>
         </div>
         <div class="d-flex">
             <div class="p-4">
                 <img src='/images/customize.png' alt="">
-                <h5> Customize Preferences</h5>
-                <p>Learners are given the right to arrange and customize their study schedule and timetable based on
+                <h5 class="color py-3 "> <b>Customize Preferences</b></h5>
+                <p>Learners are given the right to arrange and customize their study schedule and timetable
+                    based on
                     preferences. </p>
-                <span class="color">Start here <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="color-text">Start here <i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="p-4">
                 <img src='/images/cloud.png' alt="">
-                <h5> Cloud Storage</h5>
-                <p>You can store online lessons via online cloud or download to your device and revise lessons on the way.
+                <h5 class="color py-3"> <b>Cloud Storage</b></h5>
+                <p>You can store online lessons via online cloud or download to your device and revise lessons
+                    on the way.
                 </p>
-                <span class="color">Get Free Quote <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="color-text">Get Free Quote <i class="fa-solid fa-arrow-right"></i></span>
             </div>
             <div class="p-4">
                 <img src='/images/multimedia.png' alt="">
-                <h5> Multimedia Channels</h5>
-                <p>We provide study materials with various formats: video, audio, slides, doc, prints, books and
+                <h5 class="color py-3"><b>Multimedia Channels</b> </h5>
+                <p>We provide study materials with various formats: video, audio, slides, doc, prints, books
+                    and
                     applications. </p>
-                <span class="color">Start now <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="color-text">Start now <i class="fa-solid fa-arrow-right"></i></span>
             </div>
         </div>
         <div class="d-flex pb-5 ">
@@ -38,12 +41,12 @@
                 </div>
             </div>
             <div class="box ">
-                <span>Get started effortlessly</span>
-                <h2 class="py-4">Enjoy Our Companionship</h2>
+                <span class="color-text">Get started <span>effortlessly</span></span>
+                <h2 class="py-4 color "><b>Enjoy Our <span>Companionship</span></b></h2>
                 <p class="pb-4">Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek
                     for some
                     hidden hints of early-bird rewards as well.</p>
-                <span>Download free guidebook <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="color-title"><u>Download free guidebook <i class="fa-solid fa-arrow-right"></i></u></span>
             </div>
         </div>
 
@@ -77,7 +80,7 @@ export default {
 
 .w-10 {
     width: 90%;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-left: 40px;
 
 }
@@ -96,7 +99,27 @@ export default {
 
 .box {
     width: 280px;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-left: 10px
+}
+
+.color-text {
+    color: #8C89A2;
+}
+
+.color-title {
+    color: #20AD96;
+}
+
+h4 span {
+    color: #20AD96;
+}
+
+span span {
+    color: #3F3A64;
+}
+
+h2 span {
+    color: #20AD96;
 }
 </style>

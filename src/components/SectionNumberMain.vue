@@ -3,7 +3,7 @@
         <div class="text-center">
             <h5>Successfully trained</h5>
             <p class="size"><b>1790</b></p>
-            <span>enrolled learners</span>
+            <span>Enrolled learners</span>
         </div>
         <div class="text-center">
             <h5>Proudly Received</h5>
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-    name: 'MainNumber'
+    name: 'SectionNumberMain'
 }
 </script>
 
@@ -48,5 +48,9 @@ export default {
 
 h5 {
     color: #3F3A64;
+}
+
+.span {
+    color: #8C89A2;
 }
 </style>

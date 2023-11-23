@@ -5,6 +5,12 @@
             <div v-for="(recaps, index) in store.lista[0].sections">
                 <p>{{ recaps.text }}</p>
             </div>
+            <div class="d-flex">
+                <p><i class="fa-brands fa-facebook m-2 w"></i></p>
+                <p><i class="fa-brands fa-twitter m-2 w"></i></p>
+                <p><i class="fa-brands fa-instagram m-2 w"></i></p>
+                <p><i class="fa-brands fa-linkedin m-2 w"></i></p>
+            </div>
         </div>
         <div class="d-flex align-items-center ">
             <div class="p-4">
@@ -52,5 +58,16 @@ export default {
 
 .margin-top {
     margin-top: 20px;
+}
+
+
+.w {
+    font-size: 25px;
+}
+
+
+.w:hover {
+    color: rgb(72, 160, 160);
+    cursor: pointer;
 }
 </style>

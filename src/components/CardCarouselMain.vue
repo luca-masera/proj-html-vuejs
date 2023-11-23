@@ -1,7 +1,7 @@
 <template>
     <div class="box">
         <div>
-            <h5 class="pb-2">{{ title }}</h5>
+            <h5 class="pb-2"><b>{{ title }}</b></h5>
             <p class="pb-3"> {{ text }}</p>
         </div>
         <div class="d-flex">
@@ -9,7 +9,7 @@
                 <img :src="image" alt="">
             </div>
             <div class="d-flex flex-column ps-3 pt-1">
-                <h6> {{ name }}</h6>
+                <h6><b>{{ name }}</b> </h6>
                 <p> {{ activity }}</p>
             </div>
         </div>
@@ -19,7 +19,7 @@
 <script>
 import { store } from '../data/store.js';
 export default {
-    name: 'CarouselCardMain',
+    name: 'CardCarouselMain',
     props: [
         'title',
         'text',
@@ -48,7 +48,8 @@ img {
     padding: 45px;
 }
 
-h5 {
+h5,
+h6 {
     color: #3F3A64;
 }
 </style>

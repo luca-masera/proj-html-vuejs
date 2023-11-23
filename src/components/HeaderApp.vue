@@ -69,8 +69,9 @@
                     <i class="fa-regular fa-circle-user"></i>
                 </li>
                 <li>
-                    <input type="search" class="form-control" id="search" placeholder="Search...">
+                    <input type="search" class="form-control " id="search" placeholder="Search...">
                     <label for="search"></label>
+
                 </li>
 
             </ul>
@@ -105,7 +106,7 @@ img {
 
 .box {
     height: 80px;
-    background-color: white;
+    background-color: #f8f8f8;
     padding-left: 260px;
     padding-right: 250px;
 }
@@ -128,6 +129,10 @@ img {
 
 
 .dropdown2 a:hover {
+    color: #20AD96;
+}
+
+a:hover {
     color: #20AD96;
 }
 

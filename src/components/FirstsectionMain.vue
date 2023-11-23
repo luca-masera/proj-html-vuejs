@@ -1,20 +1,22 @@
 <template>
     <div class="box d-flex justify-content-evenly">
-        <div class="padding-start">
-            <h2>Distant learning for further expansion</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic beatae libero vero necessitatibus nam dolorem
-                nesciunt sed ipsa eaque eveniet.
+        <div class="padding">
+            <h2><b>Distant learning for further expansion</b></h2>
+            <p class="color">Learning is a life-long journey that in fact we never find the terminate stop. Stop searching,
+                enjoy the
+                process.
             </p>
-            <button type="button" class="btn btn-success mb-3 mt-3"><i class="fa-solid fa-download pe-2"></i>Download
+
+            <button type="button" class="btn btn-success mb-3 mt-3 px-3"><i class="fa-solid fa-download pe-2"></i>Download
                 free
                 guide
             </button>
-            <p>
-                Have questions? Get Free Sample <i class="fa-solid fa-arrow-right"></i>
+            <p class="color">
+                Have questions? <span><u>Get Free Sample <i class="fa-solid fa-arrow-right"></i></u></span>
             </p>
         </div>
-        <div class="padding-end ">
-            <img class="img-ricci" src='/images/ricci.jpg' alt="">
+        <div>
+            <img class="img-ricci pt-5 pe-2 " src='/images/ricci.jpg' alt="">
         </div>
     </div>
     <div class="box text-center">
@@ -31,7 +33,7 @@
 <script>
 
 export default {
-    name: 'FirstSectionMain'
+    name: 'FirstsectionMain'
 }
 </script>
 
@@ -39,7 +41,9 @@ export default {
 
 <style lang="css" scoped>
 .box {
-    background-color: #F8F8F8;
+    background-color: #FFFFFF;
+    padding-right: 420px;
+    padding-left: 420px;
 }
 
 button {
@@ -49,24 +53,34 @@ button {
 }
 
 .img-ricci {
-    width: 350px;
-    border-radius: 1000%;
+    width: 400px;
+    border-radius: 100%;
 }
 
-.padding-end {
-    padding-right: 450px;
-    padding-top: 50px
-}
-
-.padding-start {
-    padding-left: 420px;
-    margin-right: 150px;
+.padding {
+    margin-right: 180px;
     padding-top: 100px;
 }
 
 .p {
     padding: 30px;
     padding-top: 40px;
+}
+
+h2 {
+    color: #3F3A64
+}
+
+.color {
+    color: #8C89A2;
+}
+
+p span {
+    color: #20AD96;
+}
+
+button:hover {
+    background-color: #3F3A64
 }
 </style>
 #
