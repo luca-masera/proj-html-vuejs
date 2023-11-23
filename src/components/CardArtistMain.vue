@@ -28,6 +28,16 @@
             <span class="px-3"><i class="fa-regular fa-calendar"></i>May 15,2020</span>
             <span><i class="fa-regular fa-eye"></i> 603 views</span>
         </div>
+    </div>
+    <div class="box-white my-5">
+        <h4 class="pb-3">Subscribe Newsletters</h4>
+        <p class="pb-3">Enter your email address to register to our newsletter subscription delivered on a regular basis!
+        </p>
+        <div class="d-flex">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <label for="email"></label>
+            <button type="button" class="btn btn-success">Subscribe</button>
+        </div>
 
 
     </div>
@@ -44,6 +54,14 @@ export default {
     padding-right: 450px;
     padding-left: 420px;
     background-color: #F5F1ED;
+
+
+}
+
+.box-white {
+    padding-right: 700px;
+    padding-left: 700px;
+    text-align: center;
 
 }
 

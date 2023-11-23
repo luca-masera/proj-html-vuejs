@@ -22,6 +22,7 @@
 </template>
 
 <script>
+
 import { store } from '../data/store.js';
 import FirstsectionMain from './FirstsectionMain.vue';
 import CardOnlineCourses from './CardOnlineCourses.vue';
