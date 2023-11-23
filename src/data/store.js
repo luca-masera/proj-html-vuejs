@@ -308,6 +308,40 @@ export const store = reactive({
 
 
 
+    ],
+    card: [
+
+
+        {
+            "title": "It's a choice of quality for people with special needs",
+            "text": 'Im a very strict person so I require everything to be organized and neat. Then, Ill be able to make things right and shine.MaxCoach guys just got me.',
+            "image": '/images/florence.jpg',
+            "name": "FLORENCE THEMES",
+            "activity": "/ Multimedia Admin"
+        },
+        {
+            "title": "High level of efficiency and scientific teaching methods",
+            "text": 'I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus.Great study portal for people like me.',
+            "image": '/images/mina.jpg',
+            "name": "MINA HOLLACE",
+            "activity": "/ Freelancer"
+        },
+        {
+            "title": "Professional team of specialists and passionate mentors at reach",
+            "text": 'I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.',
+            "image": '/images/madley.jpg',
+            "name": "MADLEY PONDOR",
+            "activity": "/ IT Specialist"
+        }
+
     ]
 
 })
+
+
+
+
+
+
+
+

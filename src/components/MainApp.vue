@@ -17,6 +17,11 @@
         </div>
     </div>
     <SmartTutoring />
+    <div class="d-flex box-carousel">
+        <CarouselCardMain class="bg-white" v-for="carousel in store.card" :title="carousel.title" :text="carousel.text"
+            :image="carousel.image" :name="carousel.name" :activity="carousel.activity" />
+    </div>
+
     <MainNumber />
     <CardArtistMain />
 </template>
@@ -29,11 +34,12 @@ import CardOnlineCourses from './CardOnlineCourses.vue';
 import SmartTutoring from './SmartTutoring.vue';
 import MainNumber from './MainNumber.vue';
 import CardArtistMain from './CardArtistMain.vue';
+import CarouselCardMain from './CarouselCardMain.vue';
 
 
 export default {
     name: "MainApp",
-    components: { FirstsectionMain, CardOnlineCourses, SmartTutoring, MainNumber, CardArtistMain },
+    components: { FirstsectionMain, CardOnlineCourses, SmartTutoring, MainNumber, CardArtistMain, CarouselCardMain },
     data() {
         return {
             store
@@ -59,5 +65,10 @@ export default {
 .padding {
     padding-top: 60px;
     padding-bottom: 30px;
+}
+
+.box-carousel {
+
+    background-color: #F5F1ED;
 }
 </style>
